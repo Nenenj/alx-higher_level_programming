@@ -9,7 +9,7 @@ else:
 
 lastDigit = buf % 10
 if number < 0:
-        lastDigit = lastDigit * -1
+    lastDigit = lastDigit * -1
 
 if lastDigit == 0:
     print(f"Last digit of {number:d} is 0 and is 0")
