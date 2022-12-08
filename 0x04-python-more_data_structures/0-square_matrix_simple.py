@@ -6,5 +6,5 @@ def square_matrix_simple(matrix=[]):
         Newsquare.append([])
         for y in matrix[i]:
             Newsquare[i].append(y**2)
-            i += 1
+        i += 1
         return (Newsquare)
